@@ -34,15 +34,18 @@ let addTask = function(event)
 {
     event.preventDefault();
 
-    let listitem = createtask(new_task.value);
+    if(new_task.value != "")
+    {
+        let listitem = createtask(new_task.value);
 
-    todoUl.appendChild(listitem);
+        todoUl.appendChild(listitem);
 
-    new_task.value = "";
+        new_task.value = "";
 
-    // binding the new task and incomplete task
+        // binding the new task and incomplete task
 
-    Bindincompletetask(listitem, completeTask);
+        Bindincompletetask(listitem, completeTask);
+    }
 
 }
 
