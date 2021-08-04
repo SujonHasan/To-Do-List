@@ -1,0 +1,60 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background-color: rgb(202, 197, 190);
+}
+
+h1,h2{
+
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    background-color: antiquewhite;
+}
+
+.logo img
+{
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.checkbox
+{
+    float: left;
+
+}
+
+.box
+{
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 15px;
+}
+
+.btn
+{
+    float: right;
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.btn:hover
+{
+    background-color: steelblue;
+    color: white;
+}

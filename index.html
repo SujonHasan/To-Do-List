@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sujon Hasan" />
+    <meta name="description" content="We love JavaScript, play with Dome" />
+    <title>To-Do-List</title>
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/8b8414cc00.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;0,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,600;1,400&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container py-2">
+
+        <div class="logo text-center pt-3">
+
+            <img src="Image/logo.png" alt="Logo">
+
+        </div>
+
+        <h1 id="header">To-Do-List</h1>
+
+
+        <form class="new-task-container box m-4">
+
+            <label for="new-task">Add new Task</label>
+            <input type="text" id="new-task">
+            <input type="submit" value="Add-Task" id="add-task">
+
+        </form>
+
+
+        <div class="row mt-5 m-4">
+
+            <div class="col-12 col-lg-6 ">
+            
+                <div class="todo-list box">
+
+                    <h2>Incomplete Task</h2>
+
+                    <ul class="list-group items">
+
+                        <!-- <li class="list-group-item">
+
+                            <input type="checkbox" class="checkbox"> <label> task1</label>
+
+                        </li>
+
+                        <li class="list-group-item">
+
+                            <input type="checkbox" class="checkbox"> <label> task2</label>
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <input type="checkbox" class="checkbox"> <label> task3</label>
+
+                        </li> -->
+                      
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+
+                <div class="complete-list box text-start">
+
+                    <h2 class="text-success">Complete Task</h2>
+
+                    <ul class="list-group">
+
+                        <!-- <li class="list-group-item">
+                            Task1 <button class="btn">Delete</button>
+                        </li>
+                        <li class="list-group-item">
+                            Task1 <button class="btn">Delete</button>
+                        </li>
+                        <li class="list-group-item">
+                            Task1 <button class="btn">Delete</button>
+                        </li> -->
+
+                    </ul>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+        <footer>
+            <p class="small mb-0 mt-1 text-center">&copy; Copyright <cite>Sujon Hasan</cite> </p>
+        </footer>
+
+
+    </div>
+
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
